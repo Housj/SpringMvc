@@ -8,7 +8,7 @@ import org.springframework.core.io.Resource;
  * @author sergei
  * @create 2020-04-15
  */
-@ConfigurationProperties(prefix = "upload.pictures")
+//@ConfigurationProperties(prefix = "upload.pictures")
 public class PicturesUploadProperties {
 
     private Resource uploadPath;

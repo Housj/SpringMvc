@@ -16,6 +16,9 @@ import java.util.stream.Collectors;
 public class SearchService {
     private User user;
 
+    public String aa(){
+        return "aa";
+    }
 //    @Autowired
 //    public SearchService(User user){
 //        this.user = user;

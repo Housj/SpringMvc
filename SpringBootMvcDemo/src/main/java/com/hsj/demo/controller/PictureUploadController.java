@@ -25,8 +25,8 @@ import java.nio.file.Path;
  * @author sergei
  * @create 2020-04-15
  */
-@Controller
-@SessionAttributes("picturePath")
+//@Controller
+//@SessionAttributes("picturePath")
 public class PictureUploadController {
     private final Resource picturesDir;
     private final Resource anonymousPicture;

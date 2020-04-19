@@ -17,7 +17,7 @@ import java.util.Locale;
  * @author sergei
  * @create 2020-04-15
  */
-@Controller
+//@Controller
 public class ProfileController {
     @ModelAttribute("dateFormat")
     public String localeFormat(Locale locale) {

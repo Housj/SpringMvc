@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Date 2018-04-09
  * @Time 17:09
  */
-@RestControllerAdvice
+//@RestControllerAdvice
 public class ExceptionController {
     private final ResultMap resultMap;
 

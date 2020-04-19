@@ -16,7 +16,7 @@ import java.util.List;
  * @author sergei
  * @create 2020-04-15
  */
-@Controller
+//@Controller
 public class SearchController {
 
     private SearchService searchService;

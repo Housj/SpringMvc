@@ -9,8 +9,9 @@ import org.springframework.web.context.support.ServletRequestHandledEvent;
  * @create 2020-04-17
  */
 //@Component
-public class ServletRequestHandledEventListener implements ApplicationListener<ServletRequestHandledEvent> {
-    @Override
+//public class ServletRequestHandledEventListener implements ApplicationListener<ServletRequestHandledEvent> {
+    public class ServletRequestHandledEventListener {
+//    @Override
     public void onApplicationEvent(ServletRequestHandledEvent servletRequestHandledEvent) {
         System.out.println("111"+servletRequestHandledEvent.getClientAddress());
         System.out.println("222"+servletRequestHandledEvent.getServletName());
